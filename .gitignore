@@ -1,7 +1,5 @@
 cat > .gitignore << 'EOF'
-# =====================================
-# 🌐 FRONTEND (Angular / Node.js)
-# =====================================
+# FRONTEND (Angular / Node.js)
 frontend/node_modules/
 frontend/dist/
 frontend/tmp/
@@ -20,9 +18,7 @@ frontend/.vscode/
 frontend/.idea/
 frontend/.DS_Store
 
-# =====================================
-# ☕ BACKEND (Spring Boot / Java)
-# =====================================
+# BACKEND (Spring Boot / Java)
 ikaza-backend/target/
 ikaza-backend/build/
 ikaza-backend/out/
